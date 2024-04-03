@@ -4,243 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geography Game</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <style>
-        #map { width: 100%; height: 600px; }
-    </style>
 </head>
 <body>
 
-<div id="map"></div>
-
-<input type="text" id="nameInput">
-<button id="button" onclick="clicked()">GUESS</button>
-
-<select id="countrySelect">
-        <option value="auto">Auto</option>
-		<option value="afghanistan">Afghanistan</option>
-        <option value="andorra">Andorra</option>
-		<option value="uae">United Arab Emirates</option>
-</select>
-
-<label id="roundlabel" for="username">Round: 1</label>
-
-<label id="scorelabel" for="score">Score: 0</label>
-
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
 <script>
 
-round = 1;
-score = 0;
-
-guessedata = "";
-guessed = false;
-
-function listsum(list) {
-	sum = 0;
-	for(let i = 0; i < list.length; i++){
-		sum+=list[i];
-	}
-	return sum;
-}
-
-function randint(min, max) {
-    var randomInteger = Math.floor(Math.random() * (max - min + 1)) + min;
-    return randomInteger;
-}
-
-values = [71,503,5143]
-keys = ['andorra.ndjson', 'uae.ndjson', 'afghanistan.ndjson']
-
-function getrandomcountry() {
-	total = listsum(values);
-	randnum = randint(0, total-1);
-	for(let i=0; i<values.length; i++){
-		randnum-=values[i];
-		if(randnum < 0){
-			return i;
-		}
-	}
-}
-
 async function fetchFileContents() {
-	let countryid = getrandomcountry();
-	File = keys[countryid];
-	Lines = values[countryid];
-    const url = 'https://raw.githubusercontent.com/HRALYB-PYGAME/cityguesser/main/' + File;
-    
-    try {
+    const url = 'https://drive.google.com/drive/folders/1ma_zp3vnGhsSkey3cKbmfoyaKmkYTYxh?usp=sharing';
+	try {
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error('Failed to fetch file');
         }
         const text = await response.text();
 		const lines = text.split('\n');
-		const randomLineNumber = randint(0, Lines - 1);
-		randomLine = lines[randomLineNumber];
-		console.log(File, randomLine);
-		randomLine = JSON.parse(randomLine);
-		locationData = randomLine.location;
-		L.marker(locationData.reverse()).addTo(map).bindPopup("Guess as close as possible to here (:");
+		
+		console.log(lines[0]);
 	} catch (error) {
         console.error('Error fetching file:', error);
     }
 }
 
-function removechars(string){
-	return string.replace(/[\s'’-]/g, '').toLowerCase();
-}
-
-function scorecalc(distance){
-	let scoreadd = 5000;
-	scoreadd *= Math.exp(-0.5 * (distance/500)**2);
-	score += Math.round(scoreadd);
-	var scorelabel = document.getElementById('scorelabel');
-	scorelabel.innerHTML = 'score: '+score;
-}
-
-function compare(string1, string2, line){
-	if (removechars(string1) == removechars(string2) && guessed == false){
-		coords = line.location;
-		guesseddata = line;
-		removemarkers();
-		var marker1 = L.marker(locationData).addTo(map).bindPopup(randomLine.display_name);
-		var marker2 = L.marker(coords.reverse()).addTo(map).bindPopup(string1+" (your guess)");
-		var latlngs = [marker1.getLatLng(), marker2.getLatLng()];
-
-		polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-		guessed = true;
-		
-		distance = calculateDistance(coords, locationData);
-		
-		scorecalc(distance);
-		
-		return true;
-	}
-	return false;
-}
-
-async function search(){
-	if (guessed == true){
-		return;
-	}
-	input = document.getElementById('nameInput').value;
-	country = document.getElementById('countrySelect').value;
-	if (country == 'auto'){
-		country = File;
-	} else{
-		country += '.ndjson';
-	}
-	country = country.toLowerCase();
-	
-	const url = 'https://raw.githubusercontent.com/HRALYB-PYGAME/cityguesser/main/' + country;
-	const response = await fetch(url);
-	if (!response.ok) {
-		throw new Error('Failed to fetch file');
-	}
-	const text = await response.text();
-	const lines = text.split('\n');
-	
-	for (let data = 0; data < Lines; data++){
-		
-		lines[data] = JSON.parse(lines[data]);
-		
-		if (lines[data].name){
-			if(compare(lines[data].name, input, lines[data])){
-				return;
-			}
-		}
-
-		if (lines[data].other_names) {
-			for (let key in lines[data].other_names) {
-				if (compare(lines[data].other_names[key], input, lines[data])){
-					return;
-				}
-			}
-		}
-		
-		if (lines[data].display_name){
-			if (compare(lines[data].display_name, input, lines[data])){
-				console.log("broke");
-				return;
-			}
-		}
-	}
-	return;
-}
-
-function removemarkers(){
-	map.eachLayer(function (layer) {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer);
-        }
-		try {
-			map.removeLayer(polyline);
-		}
-		catch {
-			return;
-		}
-    });
-}
-
-function next(){
-	removemarkers();
-	fetchFileContents();
-	guessed = false;
-	
-	round+=1;
-	var roundlabel = document.getElementById('roundlabel');
-	roundlabel.innerHTML = 'round: '+round;
-}
-
-function calculateDistance(coords1, coords2) {
-	lat1 = coords1[0];
-	lat2 = coords2[0];
-	lon1 = coords1[1];
-	lon2 = coords2[1];
-    const R = 6371;
-    const latDelta = (lat2 - lat1) * Math.PI / 180;
-    const lonDelta = (lon2 - lon1) * Math.PI / 180;
-
-    const a = Math.sin(latDelta/2) * Math.sin(latDelta/2) +
-              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-              Math.sin(lonDelta/2) * Math.sin(lonDelta/2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-    const distance = R * c;
-
-    return distance;
-}
-
-async function clicked(){
-	var button = document.getElementById('button');
-	if (button.innerHTML === 'GUESS'){
-		await search();
-		if (guessed == true){
-			button.innerHTML = 'NEXT';
-			map.removeLayer(nolabeled);
-			labeled.addTo(map);
-		}
-	} else{
-		next();
-		button.innerHTML = 'GUESS';
-		map.removeLayer(labeled);
-		nolabeled.addTo(map);
-	}
-}
-
-map = L.map('map').setView([0, 0], 2);
 fetchFileContents();
-
-nolabeled = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="https://carto.com/attributions">Carto</a>'
-});
-
-labeled = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://carto.com/attributions">Carto</a>'
-});
-
-nolabeled.addTo(map);
 
 </script>
 
