@@ -427,11 +427,11 @@
 		
 		function putmarker(line) {
 			coords = line.location;
-			var marker1 = L.marker([coords[1], coords[0]]).addTo(map).bindPopup(line.display_name);
+			var marker1 = L.marker([coords[1], coords[0]]).addTo(map).bindPopup();
 		}
 		
 		function putmarkerbycoords(name, lat, lon) {
-			var marker1 = L.marker([lat, lon]).addTo(map).bindPopup(name);
+			var marker1 = L.marker([lat, lon]).addTo(map).bindPopup();
 		}
 		
 		function putline(line1, line2lat, line2lon) {
