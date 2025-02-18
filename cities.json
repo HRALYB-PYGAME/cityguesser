@@ -33,268 +33,804 @@
       "long": -46.6333
     },
     {
-    "cityname": "Delhi",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Delhi",
-    "lat": 28.6139,
-    "long": 77.2090
-  },
-  {
-    "cityname": "Mumbai",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Maharashtra",
-    "lat": 19.0760,
-    "long": 72.8777
-  },
-  {
-    "cityname": "Kolkata",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "West Bengal",
-    "lat": 22.5726,
-    "long": 88.3639
-  },
-  {
-    "cityname": "Chennai",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Tamil Nadu",
-    "lat": 13.0827,
-    "long": 80.2707
-  },
-  {
-    "cityname": "Bengaluru",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Karnataka",
-    "lat": 12.9716,
-    "long": 77.5946
-  },
-  {
-    "cityname": "Hyderabad",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Telangana",
-    "lat": 17.3850,
-    "long": 78.4867
-  },
-  {
-    "cityname": "Ahmedabad",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Gujarat",
-    "lat": 23.0225,
-    "long": 72.5714
-  },
-  {
-    "cityname": "Pune",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Maharashtra",
-    "lat": 18.5204,
-    "long": 73.8567
-  },
-  {
-    "cityname": "Jaipur",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Rajasthan",
-    "lat": 26.9124,
-    "long": 75.7873
-  },
-  {
-    "cityname": "Lucknow",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Uttar Pradesh",
-    "lat": 26.8467,
-    "long": 80.9462
-  },
-  {
-    "cityname": "Agra",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Uttar Pradesh",
-    "lat": 27.1767,
-    "long": 78.0081
-  },
-  {
-    "cityname": "Surat",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Gujarat",
-    "lat": 21.1702,
-    "long": 72.8311
-  },
-  {
-    "cityname": "Nagpur",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Maharashtra",
-    "lat": 21.1458,
-    "long": 79.0882
-  },
-  {
-    "cityname": "Bhopal",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Madhya Pradesh",
-    "lat": 23.2599,
-    "long": 77.4126
-  },
-  {
-    "cityname": "Patna",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Bihar",
-    "lat": 25.5941,
-    "long": 85.1376
-  },
-  {
-    "cityname": "Indore",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Madhya Pradesh",
-    "lat": 22.7196,
-    "long": 75.8577
-  },
-  {
-    "cityname": "Kanpur",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Uttar Pradesh",
-    "lat": 26.4499,
-    "long": 80.3319
-  },
-  {
-    "cityname": "Varanasi",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Uttar Pradesh",
-    "lat": 25.3176,
-    "long": 82.9739
-  },
-  {
-    "cityname": "Amritsar",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Punjab",
-    "lat": 31.5497,
-    "long": 74.3436
-  },
-  {
-    "cityname": "Kochi",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Kerala",
-    "lat": 9.9312,
-    "long": 76.2673
-  },
-  {
-    "cityname": "Jodhpur",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Rajasthan",
-    "lat": 26.2389,
-    "long": 73.0247
-  },
-  {
-    "cityname": "Chandigarh",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Chandigarh",
-    "lat": 30.7333,
-    "long": 76.7794
-  },
-  {
-    "cityname": "Srinagar",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Jammu and Kashmir",
-    "lat": 34.0837,
-    "long": 74.7973
-  },
-  {
-    "cityname": "Coimbatore",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Tamil Nadu",
-    "lat": 11.0168,
-    "long": 76.9558
-  },
-  {
-    "cityname": "Visakhapatnam",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Andhra Pradesh",
-    "lat": 17.6869,
-    "long": 83.2185
-  },
-  {
-    "cityname": "Raipur",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Chhattisgarh",
-    "lat": 21.2514,
-    "long": 81.6296
-  },
-  {
-    "cityname": "Ranchi",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Jharkhand",
-    "lat": 23.3441,
-    "long": 85.3096
-  },
-  {
-    "cityname": "Madurai",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Tamil Nadu",
-    "lat": 9.9195,
-    "long": 78.1193
-  },
-  {
-    "cityname": "Prayagraj",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Uttar Pradesh",
-    "lat": 25.4358,
-    "long": 81.8463
-  },
-  {
-    "cityname": "Mysore",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Karnataka",
-    "lat": 12.2958,
-    "long": 76.6394
-  },
-  {
-    "cityname": "Ludhiana",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Punjab",
-    "lat": 30.9008,
-    "long": 75.8573
-  },
-  {
-    "cityname": "Rajkot",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Gujarat",
-    "lat": 22.3039,
-    "long": 70.8022
-  },
-  {
-    "cityname": "Vadodara",
-    "continent": "Asia",
-    "country": "India",
-    "subdivision": "Gujarat",
-    "lat": 22.3072,
-    "long": 73.1812
-  }
+        "cityname": "Delhi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Delhi",
+        "lat": 28.6273928,
+        "long": 77.1716954
+    },
+    {
+        "cityname": "Mumbai",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.054999,
+        "long": 72.8692035
+    },
+    {
+        "cityname": "Kolkata",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 22.5726459,
+        "long": 88.3638953
+    },
+    {
+        "cityname": "Chennai",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 13.0836939,
+        "long": 80.270186
+    },
+    {
+        "cityname": "Bengaluru",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 12.98815675,
+        "long": 77.62260003796
+    },
+    {
+        "cityname": "Hyderabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Telangana",
+        "lat": 17.360589,
+        "long": 78.4740613
+    },
+    {
+        "cityname": "Ahmedabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 23.0215374,
+        "long": 72.5800568
+    },
+    {
+        "cityname": "Pune",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 18.5213738,
+        "long": 73.8545071
+    },
+    {
+        "cityname": "Jaipur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 26.9154576,
+        "long": 75.8189817
+    },
+    {
+        "cityname": "Lucknow",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 26.8381,
+        "long": 80.9346001
+    },
+    {
+        "cityname": "Agra",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 27.1752554,
+        "long": 78.0098161
+    },
+    {
+        "cityname": "Surat",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 21.2094892,
+        "long": 72.8317058
+    },
+    {
+        "cityname": "Nagpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 21.1498134,
+        "long": 79.0820556
+    },
+    {
+        "cityname": "Bhopal",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 23.2584857,
+        "long": 77.401989
+    },
+    {
+        "cityname": "Patna",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Bihar",
+        "lat": 25.6093239,
+        "long": 85.1235252
+    },
+    {
+        "cityname": "Indore",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 22.7203616,
+        "long": 75.8681996
+    },
+    {
+        "cityname": "Kanpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 26.4609135,
+        "long": 80.3217588
+    },
+    {
+        "cityname": "Varanasi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 25.3356491,
+        "long": 83.0076292
+    },
+    {
+        "cityname": "Amritsar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Punjab",
+        "lat": 31.6356659,
+        "long": 74.8787496
+    },
+    {
+        "cityname": "Kochi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Kerala",
+        "lat": 9.9674277,
+        "long": 76.2454436
+    },
+    {
+        "cityname": "Jodhpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 26.2967719,
+        "long": 73.0351433
+    },
+    {
+        "cityname": "Chandigarh",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Chandigarh",
+        "lat": 30.7334421,
+        "long": 76.7797143
+    },
+    {
+        "cityname": "Srinagar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Jammu and Kashmir",
+        "lat": 34.0747444,
+        "long": 74.8204443
+    },
+    {
+        "cityname": "Coimbatore",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 11.0018115,
+        "long": 76.9628425
+    },
+    {
+        "cityname": "Visakhapatnam",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Andhra Pradesh",
+        "lat": 17.6935526,
+        "long": 83.2921297
+    },
+    {
+        "cityname": "Raipur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Chhattisgarh",
+        "lat": 21.2380912,
+        "long": 81.6336993
+    },
+    {
+        "cityname": "Ranchi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Jharkhand",
+        "lat": 23.3700501,
+        "long": 85.3250387
+    },
+    {
+        "cityname": "Madurai",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 9.9261153,
+        "long": 78.1140983
+    },
+    {
+        "cityname": "Prayagraj",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 25.4381302,
+        "long": 81.8338005
+    },
+    {
+        "cityname": "Mysore",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 12.3051828,
+        "long": 76.6553609
+    },
+    {
+        "cityname": "Ludhiana",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Punjab",
+        "lat": 30.9090157,
+        "long": 75.851601
+    },
+    {
+        "cityname": "Rajkot",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 22.3053263,
+        "long": 70.8028377
+    },
+    {
+        "cityname": "Vadodara",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 22.2973142,
+        "long": 73.1942567
+    },
+    {
+        "cityname": "Bhubaneswar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Odisha",
+        "lat": 20.2602964,
+        "long": 85.8394521
+    },
+    {
+        "cityname": "Thiruvananthapuram",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Kerala",
+        "lat": 8.4882267,
+        "long": 76.947551
+    },
+    {
+        "cityname": "Jammu",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Jammu and Kashmir",
+        "lat": 32.7185614,
+        "long": 74.8580917
+    },
+    {
+        "cityname": "Guwahati",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Assam",
+        "lat": 26.1805978,
+        "long": 91.753943
+    },
+    {
+        "cityname": "Nashik",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 20.0112475,
+        "long": 73.7902364
+    },
+    {
+        "cityname": "Udaipur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 24.578721,
+        "long": 73.6862571
+    },
+    {
+        "cityname": "Aurangabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Bihar",
+        "lat": 24.80332005,
+        "long": 84.41101977690866
+    },
+    {
+        "cityname": "Bhilai",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Chhattisgarh",
+        "lat": 21.2120677,
+        "long": 81.3732849
+    },
+    {
+        "cityname": "Mangaluru",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 12.8698101,
+        "long": 74.8430082
+    },
+    {
+        "cityname": "Kota",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 25.1737019,
+        "long": 75.8574194
+    },
+    {
+        "cityname": "Gwalior",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 26.2037247,
+        "long": 78.1573628
+    },
+    {
+        "cityname": "Dehradun",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttarakhand",
+        "lat": 30.3255646,
+        "long": 78.0436813
+    },
+    {
+        "cityname": "Meerut",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 29.0018557,
+        "long": 77.76796714992041
+    },
+    {
+        "cityname": "Thane",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.1943294,
+        "long": 72.9701779
+    },
+    {
+        "cityname": "Vijayawada",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Andhra Pradesh",
+        "lat": 16.5115306,
+        "long": 80.6160469
+    },
+    {
+        "cityname": "Ghaziabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 28.7749966,
+        "long": 77.4586967071196
+    },
+    {
+        "cityname": "Gurugram",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Haryana",
+        "lat": 28.4646148,
+        "long": 77.0299194
+    },
+    {
+        "cityname": "Jamshedpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Jharkhand",
+        "lat": 22.8015194,
+        "long": 86.2029579
+    },
+    {
+        "cityname": "Navi Mumbai",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.0308262,
+        "long": 73.0198537
+    },
+    {
+        "cityname": "Jabalpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 23.1701522,
+        "long": 79.9324505
+    },
+    {
+        "cityname": "Noida",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 28.5706333,
+        "long": 77.3272147
+    },
+    {
+        "cityname": "Faridabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Haryana",
+        "lat": 28.4031478,
+        "long": 77.3105561
+    },
+    {
+        "cityname": "Salem",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 11.64696155,
+        "long": 78.21069575456464
+    },
+    {
+        "cityname": "Bareilly",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 28.45823445,
+        "long": 79.40474517998476
+    },
+    {
+        "cityname": "Solapur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 17.84990665,
+        "long": 75.27632027348457
+    },
+    {
+        "cityname": "Jalandhar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Punjab",
+        "lat": 31.29223115,
+        "long": 75.56788777097373
+    },
+    {
+        "cityname": "Dhanbad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Jharkhand",
+        "lat": 23.7952809,
+        "long": 86.4309638
+    },
+    {
+        "cityname": "Tiruchirappalli",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 10.8071144,
+        "long": 78.6880939
+    },
+    {
+        "cityname": "Hubballi-Dharwad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 15.3518378,
+        "long": 75.1379848
+    },
+    {
+        "cityname": "Cuttack",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Odisha",
+        "lat": 20.4686,
+        "long": 85.8792
+    },
+    {
+        "cityname": "Ajmer",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 26.4691,
+        "long": 74.639
+    },
+    {
+        "cityname": "Aligarh",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 27.8761073,
+        "long": 78.13581531245276
+    },
+    {
+        "cityname": "Bikaner",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Rajasthan",
+        "lat": 28.0159286,
+        "long": 73.3171367
+    },
+    {
+        "cityname": "Asansol",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 23.6871297,
+        "long": 86.9746587
+    },
+    {
+        "cityname": "Moradabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 28.879655300000003,
+        "long": 78.80953353954959
+    },
+    {
+        "cityname": "Siliguri",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 26.7164127,
+        "long": 88.4309916
+    },
+    {
+        "cityname": "Amravati",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 21.15454115,
+        "long": 77.64429617998744
+    },
+    {
+        "cityname": "Gorakhpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 26.6677977,
+        "long": 83.364233378331
+    },
+    {
+        "cityname": "Gaya",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Bihar",
+        "lat": 24.67938895,
+        "long": 85.01158329654393
+    },
+    {
+        "cityname": "Kolhapur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 16.7028412,
+        "long": 74.2405329
+    },
+    {
+        "cityname": "Pimpri-Chinchwad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 18.6279288,
+        "long": 73.8009829
+    },
+    {
+        "cityname": "Jhansi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 25.529855,
+        "long": 78.65278023546288
+    },
+    {
+        "cityname": "Howrah",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 22.5736296,
+        "long": 88.3251045
+    },
+    {
+        "cityname": "Ujjain",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 23.1885131,
+        "long": 75.7716562
+    },
+    {
+        "cityname": "Warangal",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Telangana",
+        "lat": 17.9820644,
+        "long": 79.5970954
+    },
+    {
+        "cityname": "Nellore",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Andhra Pradesh",
+        "lat": 14.4493717,
+        "long": 79.9873763
+    },
+    {
+        "cityname": "Jamnagar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 22.4732415,
+        "long": 70.0552102
+    },
+    {
+        "cityname": "Durgapur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 23.5350475,
+        "long": 87.3380425
+    },
+    {
+        "cityname": "Kalyan-Dombivali",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.2391602,
+        "long": 73.1293186
+    },
+    {
+        "cityname": "Saharanpur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 29.9856799,
+        "long": 77.50406459058038
+    },
+    {
+        "cityname": "Bhavnagar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Gujarat",
+        "lat": 21.7718836,
+        "long": 72.1416449
+    },
+    {
+        "cityname": "Guntur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Andhra Pradesh",
+        "lat": 16.2915189,
+        "long": 80.4541588
+    },
+    {
+        "cityname": "Belgaum",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 15.8572666,
+        "long": 74.5069343
+    },
+    {
+        "cityname": "Vasai-Virar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.4210423,
+        "long": 72.8197221
+    },
+    {
+        "cityname": "Nanded",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.09400875,
+        "long": 77.48319215130235
+    },
+    {
+        "cityname": "Firozabad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Uttar Pradesh",
+        "lat": 27.19419535,
+        "long": 78.46049561440218
+    },
+    {
+        "cityname": "Jalgaon",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 20.84288265,
+        "long": 75.52612463784979
+    },
+    {
+        "cityname": "Tirunelveli",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 8.720311382076236,
+        "long": 77.70747381587239
+    },
+    {
+        "cityname": "Mira-Bhayandar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.3183904,
+        "long": 72.8991697
+    },
+    {
+        "cityname": "Bhiwandi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.3025562,
+        "long": 73.0588072
+    },
+    {
+        "cityname": "Loni",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Madhya Pradesh",
+        "lat": 21.27523085,
+        "long": 76.16067441090867
+    },
+    {
+        "cityname": "Sangli Miraj & Kupwad",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 16.8502534,
+        "long": 74.5948885
+    },
+    {
+        "cityname": "Kalaburagi",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Karnataka",
+        "lat": 17.240895700000003,
+        "long": 76.76974392025645
+    },
+    {
+        "cityname": "Malegaon",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 20.5576062,
+        "long": 74.5246514
+    },
+    {
+        "cityname": "Ulhasnagar",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Maharashtra",
+        "lat": 19.2236329,
+        "long": 73.1671515
+    },
+    {
+        "cityname": "Ambattur",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "Tamil Nadu",
+        "lat": 13.1193746,
+        "long": 80.1507648
+    },
+    {
+        "cityname": "Maheshtala",
+        "continent": "Asia",
+        "country": "India",
+        "subdivision": "West Bengal",
+        "lat": 22.5060294,
+        "long": 88.2501665
+    }
   ]
 }
