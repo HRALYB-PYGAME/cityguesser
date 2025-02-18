@@ -31,6 +31,270 @@
       "subdivision": "São Paulo",
       "lat": -23.5505,
       "long": -46.6333
-    }
+    },
+    {
+    "cityname": "Delhi",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Delhi",
+    "lat": 28.6139,
+    "long": 77.2090
+  },
+  {
+    "cityname": "Mumbai",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "lat": 19.0760,
+    "long": 72.8777
+  },
+  {
+    "cityname": "Kolkata",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "West Bengal",
+    "lat": 22.5726,
+    "long": 88.3639
+  },
+  {
+    "cityname": "Chennai",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "lat": 13.0827,
+    "long": 80.2707
+  },
+  {
+    "cityname": "Bengaluru",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "lat": 12.9716,
+    "long": 77.5946
+  },
+  {
+    "cityname": "Hyderabad",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Telangana",
+    "lat": 17.3850,
+    "long": 78.4867
+  },
+  {
+    "cityname": "Ahmedabad",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "lat": 23.0225,
+    "long": 72.5714
+  },
+  {
+    "cityname": "Pune",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "lat": 18.5204,
+    "long": 73.8567
+  },
+  {
+    "cityname": "Jaipur",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Rajasthan",
+    "lat": 26.9124,
+    "long": 75.7873
+  },
+  {
+    "cityname": "Lucknow",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "lat": 26.8467,
+    "long": 80.9462
+  },
+  {
+    "cityname": "Agra",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "lat": 27.1767,
+    "long": 78.0081
+  },
+  {
+    "cityname": "Surat",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "lat": 21.1702,
+    "long": 72.8311
+  },
+  {
+    "cityname": "Nagpur",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "lat": 21.1458,
+    "long": 79.0882
+  },
+  {
+    "cityname": "Bhopal",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Madhya Pradesh",
+    "lat": 23.2599,
+    "long": 77.4126
+  },
+  {
+    "cityname": "Patna",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Bihar",
+    "lat": 25.5941,
+    "long": 85.1376
+  },
+  {
+    "cityname": "Indore",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Madhya Pradesh",
+    "lat": 22.7196,
+    "long": 75.8577
+  },
+  {
+    "cityname": "Kanpur",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "lat": 26.4499,
+    "long": 80.3319
+  },
+  {
+    "cityname": "Varanasi",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "lat": 25.3176,
+    "long": 82.9739
+  },
+  {
+    "cityname": "Amritsar",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Punjab",
+    "lat": 31.5497,
+    "long": 74.3436
+  },
+  {
+    "cityname": "Kochi",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Kerala",
+    "lat": 9.9312,
+    "long": 76.2673
+  },
+  {
+    "cityname": "Jodhpur",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Rajasthan",
+    "lat": 26.2389,
+    "long": 73.0247
+  },
+  {
+    "cityname": "Chandigarh",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Chandigarh",
+    "lat": 30.7333,
+    "long": 76.7794
+  },
+  {
+    "cityname": "Srinagar",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Jammu and Kashmir",
+    "lat": 34.0837,
+    "long": 74.7973
+  },
+  {
+    "cityname": "Coimbatore",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "lat": 11.0168,
+    "long": 76.9558
+  },
+  {
+    "cityname": "Visakhapatnam",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Andhra Pradesh",
+    "lat": 17.6869,
+    "long": 83.2185
+  },
+  {
+    "cityname": "Raipur",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Chhattisgarh",
+    "lat": 21.2514,
+    "long": 81.6296
+  },
+  {
+    "cityname": "Ranchi",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Jharkhand",
+    "lat": 23.3441,
+    "long": 85.3096
+  },
+  {
+    "cityname": "Madurai",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "lat": 9.9195,
+    "long": 78.1193
+  },
+  {
+    "cityname": "Prayagraj",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "lat": 25.4358,
+    "long": 81.8463
+  },
+  {
+    "cityname": "Mysore",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "lat": 12.2958,
+    "long": 76.6394
+  },
+  {
+    "cityname": "Ludhiana",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Punjab",
+    "lat": 30.9008,
+    "long": 75.8573
+  },
+  {
+    "cityname": "Rajkot",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "lat": 22.3039,
+    "long": 70.8022
+  },
+  {
+    "cityname": "Vadodara",
+    "continent": "Asia",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "lat": 22.3072,
+    "long": 73.1812
+  }
   ]
 }
