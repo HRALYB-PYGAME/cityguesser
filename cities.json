@@ -1,0 +1,36 @@
+{
+  "cities": [
+    {
+      "cityname": "London",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "subdivision": "England",
+      "lat": 51.5074,
+      "long": -0.1278
+    },
+    {
+      "cityname": "Tokyo",
+      "continent": "Asia",
+      "country": "Japan",
+      "subdivision": "Tokyo",
+      "lat": 35.6895,
+      "long": 139.6917
+    },
+    {
+      "cityname": "Sydney",
+      "continent": "Australia",
+      "country": "Australia",
+      "subdivision": "New South Wales",
+      "lat": -33.8688,
+      "long": 151.2093
+    },
+    {
+      "cityname": "São Paulo",
+      "continent": "South America",
+      "country": "Brazil",
+      "subdivision": "São Paulo",
+      "lat": -23.5505,
+      "long": -46.6333
+    }
+  ]
+}
